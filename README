@@ -1,0 +1,63 @@
+# 3D Solar System Simulation
+
+This project is an interactive **3D Solar System simulation** built with [THREE.js](https://threejs.org/). It visually represents the Sun and major planets, complete with realistic textures, orbital paths, and interactive controls.
+
+---
+
+## Features
+
+- **Realistic 3D models** of the Sun and all major planets
+- **Textured skybox** for a deep space effect
+- **Accurate orbital paths** visualized as rings
+- **Interactive controls** (rotate, zoom, pan) using OrbitControls
+- **Play/Pause animation** with a floating button
+- **Dynamic planet labels** that always face the camera
+- **Saturn's iconic rings** rendered with multiple concentric meshes
+
+---
+
+**All texture images are located in the `img/` folder.**  
+The skybox images are inside `img/skybox/`.
+
+---
+
+## Getting Started
+
+> **Note:** This project is **not deployed online**. To run it locally, you must use a local server because browser security restrictions prevent loading local files directly with `file://`.
+
+### Recommended: Live Server Extension
+
+1. **Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension** (for VS Code or your preferred editor).
+2. Open the project folder in your editor.
+3. Right-click on `index.html` and select **"Open with Live Server"**.
+4. The simulation will open in your browser at `http://localhost:PORT`.
+
+---
+
+## Usage
+
+- **Rotate, zoom, and pan** using your mouse.
+- **Pause or resume** the planetary motion with the floating button in the top-right corner.
+- **Hover over planets** to see their labels.
+- **Resize the browser window** and the simulation will adjust automatically.
+
+---
+
+## Dependencies
+
+- [THREE.js v0.129.0](https://cdn.skypack.dev/three@0.129.0)
+- [OrbitControls](https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js)
+- [three.js FontLoader](https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/fonts/helvetiker_regular.typeface.json) (for planet labels)
+
+All dependencies are loaded via CDN; no manual installation required.
+
+---
+
+## License
+
+This project is for educational and demonstration purposes.  
+**All planet and skybox images are included in the `img/` folder.**
+
+---x
+
+
